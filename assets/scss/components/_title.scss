@@ -1,0 +1,18 @@
+.section-title-sub{
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 24px;
+    @include media-breakpoint-up(lg){
+        font-size: 48px;
+        letter-spacing: 48px;
+    }
+}
+.section-title{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 40px;
+    @include media-breakpoint-up(lg){
+        font-size: 48px;
+        letter-spacing: 48px;
+    }
+}

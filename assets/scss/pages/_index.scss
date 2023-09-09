@@ -1,0 +1,90 @@
+.my-navbar-collapse{
+  position: absolute;
+  z-index: 1;
+  border-top: 1px solid $light;
+  background: linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+  top: 100%;
+  width: 100%;
+  left: 0;
+  @include media-breakpoint-up(lg){
+    position: static;
+    background: initial;
+    border-top: none;
+  }
+}
+.box-shadow-hover:hover{
+  box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.80);
+}
+.bg-img1{
+  background-image: url("/assets/images/home_background.png");
+  background-size: cover;
+}
+.bg-img2{
+  background-image: url("/assets/images/carousel_background.png");
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  object-fit: cover;
+  background-position: left center;
+}
+.bg-gradient1{
+  background: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
+}
+.bg-gradient2{
+  background: radial-gradient(50% 50% at 50% 50%, #28085C 0%, #000 100%);
+}
+.bar{
+  height: 40px;
+  background: linear-gradient(90deg, $primary 1.22%, $secondary 116.05%);
+}
+.container-xxxl{
+  max-width: 1760px;
+}
+
+.alphaboxCircle {
+  width: 196px;
+  animation-name: rotate;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: both; 
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+// swiper
+.alphabox{
+  height: 351px;
+  background-image: url("/assets/images/carousel.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0 16px;
+  @include media-breakpoint-up(md){
+    height: 560px;
+    padding: 0 40px;
+  }
+  &-title{
+    font-size: 24px;
+    letter-spacing: 24px;
+    font-weight: bold;
+    margin-right: -24px;
+  }
+}
+.swiper-button-prev, .swiper-button-next{
+  color: white;
+  position: initial;
+  width: auto;
+  height: auto;
+  &::after {
+    content: '';
+  }
+}
+
+.contact-form {
+  background-color: #1F0F39;
+}
