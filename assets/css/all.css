@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
    * Bootstrap  v5.3.1 (https://getbootstrap.com/)
    * Copyright 2011-2023 The Bootstrap Authors
@@ -1209,6 +1210,16 @@ progress {
   --bs-gutter-y: 7.5rem;
 }
 
+.g-124,
+.gx-124 {
+  --bs-gutter-x: 7.75rem;
+}
+
+.g-124,
+.gy-124 {
+  --bs-gutter-y: 7.75rem;
+}
+
 .g-144,
 .gx-144 {
   --bs-gutter-x: 9rem;
@@ -1601,6 +1612,14 @@ progress {
   .gy-sm-120 {
     --bs-gutter-y: 7.5rem;
   }
+  .g-sm-124,
+  .gx-sm-124 {
+    --bs-gutter-x: 7.75rem;
+  }
+  .g-sm-124,
+  .gy-sm-124 {
+    --bs-gutter-y: 7.75rem;
+  }
   .g-sm-144,
   .gx-sm-144 {
     --bs-gutter-x: 9rem;
@@ -1988,6 +2007,14 @@ progress {
   .g-md-120,
   .gy-md-120 {
     --bs-gutter-y: 7.5rem;
+  }
+  .g-md-124,
+  .gx-md-124 {
+    --bs-gutter-x: 7.75rem;
+  }
+  .g-md-124,
+  .gy-md-124 {
+    --bs-gutter-y: 7.75rem;
   }
   .g-md-144,
   .gx-md-144 {
@@ -2377,6 +2404,14 @@ progress {
   .gy-lg-120 {
     --bs-gutter-y: 7.5rem;
   }
+  .g-lg-124,
+  .gx-lg-124 {
+    --bs-gutter-x: 7.75rem;
+  }
+  .g-lg-124,
+  .gy-lg-124 {
+    --bs-gutter-y: 7.75rem;
+  }
   .g-lg-144,
   .gx-lg-144 {
     --bs-gutter-x: 9rem;
@@ -2765,6 +2800,14 @@ progress {
   .gy-xl-120 {
     --bs-gutter-y: 7.5rem;
   }
+  .g-xl-124,
+  .gx-xl-124 {
+    --bs-gutter-x: 7.75rem;
+  }
+  .g-xl-124,
+  .gy-xl-124 {
+    --bs-gutter-y: 7.75rem;
+  }
   .g-xl-144,
   .gx-xl-144 {
     --bs-gutter-x: 9rem;
@@ -3152,6 +3195,14 @@ progress {
   .g-xxl-120,
   .gy-xxl-120 {
     --bs-gutter-y: 7.5rem;
+  }
+  .g-xxl-124,
+  .gx-xxl-124 {
+    --bs-gutter-x: 7.75rem;
+  }
+  .g-xxl-124,
+  .gy-xxl-124 {
+    --bs-gutter-y: 7.75rem;
   }
   .g-xxl-144,
   .gx-xxl-144 {
@@ -10290,6 +10341,10 @@ fieldset:disabled .btn {
   margin: 7.5rem !important;
 }
 
+.m-124 {
+  margin: 7.75rem !important;
+}
+
 .m-144 {
   margin: 9rem !important;
 }
@@ -10429,6 +10484,11 @@ fieldset:disabled .btn {
 .mx-120 {
   margin-right: 7.5rem !important;
   margin-left: 7.5rem !important;
+}
+
+.mx-124 {
+  margin-right: 7.75rem !important;
+  margin-left: 7.75rem !important;
 }
 
 .mx-144 {
@@ -10576,6 +10636,11 @@ fieldset:disabled .btn {
   margin-bottom: 7.5rem !important;
 }
 
+.my-124 {
+  margin-top: 7.75rem !important;
+  margin-bottom: 7.75rem !important;
+}
+
 .my-144 {
   margin-top: 9rem !important;
   margin-bottom: 9rem !important;
@@ -10696,6 +10761,10 @@ fieldset:disabled .btn {
   margin-top: 7.5rem !important;
 }
 
+.mt-124 {
+  margin-top: 7.75rem !important;
+}
+
 .mt-144 {
   margin-top: 9rem !important;
 }
@@ -10810,6 +10879,10 @@ fieldset:disabled .btn {
 
 .me-120 {
   margin-right: 7.5rem !important;
+}
+
+.me-124 {
+  margin-right: 7.75rem !important;
 }
 
 .me-144 {
@@ -10928,6 +11001,10 @@ fieldset:disabled .btn {
   margin-bottom: 7.5rem !important;
 }
 
+.mb-124 {
+  margin-bottom: 7.75rem !important;
+}
+
 .mb-144 {
   margin-bottom: 9rem !important;
 }
@@ -11044,6 +11121,10 @@ fieldset:disabled .btn {
   margin-left: 7.5rem !important;
 }
 
+.ms-124 {
+  margin-left: 7.75rem !important;
+}
+
 .ms-144 {
   margin-left: 9rem !important;
 }
@@ -11154,6 +11235,10 @@ fieldset:disabled .btn {
 
 .m-n120 {
   margin: -7.5rem !important;
+}
+
+.m-n124 {
+  margin: -7.75rem !important;
 }
 
 .m-n144 {
@@ -11286,6 +11371,11 @@ fieldset:disabled .btn {
 .mx-n120 {
   margin-right: -7.5rem !important;
   margin-left: -7.5rem !important;
+}
+
+.mx-n124 {
+  margin-right: -7.75rem !important;
+  margin-left: -7.75rem !important;
 }
 
 .mx-n144 {
@@ -11423,6 +11513,11 @@ fieldset:disabled .btn {
   margin-bottom: -7.5rem !important;
 }
 
+.my-n124 {
+  margin-top: -7.75rem !important;
+  margin-bottom: -7.75rem !important;
+}
+
 .my-n144 {
   margin-top: -9rem !important;
   margin-bottom: -9rem !important;
@@ -11534,6 +11629,10 @@ fieldset:disabled .btn {
   margin-top: -7.5rem !important;
 }
 
+.mt-n124 {
+  margin-top: -7.75rem !important;
+}
+
 .mt-n144 {
   margin-top: -9rem !important;
 }
@@ -11640,6 +11739,10 @@ fieldset:disabled .btn {
 
 .me-n120 {
   margin-right: -7.5rem !important;
+}
+
+.me-n124 {
+  margin-right: -7.75rem !important;
 }
 
 .me-n144 {
@@ -11750,6 +11853,10 @@ fieldset:disabled .btn {
   margin-bottom: -7.5rem !important;
 }
 
+.mb-n124 {
+  margin-bottom: -7.75rem !important;
+}
+
 .mb-n144 {
   margin-bottom: -9rem !important;
 }
@@ -11856,6 +11963,10 @@ fieldset:disabled .btn {
 
 .ms-n120 {
   margin-left: -7.5rem !important;
+}
+
+.ms-n124 {
+  margin-left: -7.75rem !important;
 }
 
 .ms-n144 {
@@ -11968,6 +12079,10 @@ fieldset:disabled .btn {
 
 .p-120 {
   padding: 7.5rem !important;
+}
+
+.p-124 {
+  padding: 7.75rem !important;
 }
 
 .p-144 {
@@ -12105,6 +12220,11 @@ fieldset:disabled .btn {
 .px-120 {
   padding-right: 7.5rem !important;
   padding-left: 7.5rem !important;
+}
+
+.px-124 {
+  padding-right: 7.75rem !important;
+  padding-left: 7.75rem !important;
 }
 
 .px-144 {
@@ -12247,6 +12367,11 @@ fieldset:disabled .btn {
   padding-bottom: 7.5rem !important;
 }
 
+.py-124 {
+  padding-top: 7.75rem !important;
+  padding-bottom: 7.75rem !important;
+}
+
 .py-144 {
   padding-top: 9rem !important;
   padding-bottom: 9rem !important;
@@ -12362,6 +12487,10 @@ fieldset:disabled .btn {
   padding-top: 7.5rem !important;
 }
 
+.pt-124 {
+  padding-top: 7.75rem !important;
+}
+
 .pt-144 {
   padding-top: 9rem !important;
 }
@@ -12472,6 +12601,10 @@ fieldset:disabled .btn {
 
 .pe-120 {
   padding-right: 7.5rem !important;
+}
+
+.pe-124 {
+  padding-right: 7.75rem !important;
 }
 
 .pe-144 {
@@ -12586,6 +12719,10 @@ fieldset:disabled .btn {
   padding-bottom: 7.5rem !important;
 }
 
+.pb-124 {
+  padding-bottom: 7.75rem !important;
+}
+
 .pb-144 {
   padding-bottom: 9rem !important;
 }
@@ -12696,6 +12833,10 @@ fieldset:disabled .btn {
 
 .ps-120 {
   padding-left: 7.5rem !important;
+}
+
+.ps-124 {
+  padding-left: 7.75rem !important;
 }
 
 .ps-144 {
@@ -12810,6 +12951,10 @@ fieldset:disabled .btn {
   gap: 7.5rem !important;
 }
 
+.gap-124 {
+  gap: 7.75rem !important;
+}
+
 .gap-144 {
   gap: 9rem !important;
 }
@@ -12920,6 +13065,10 @@ fieldset:disabled .btn {
 
 .row-gap-120 {
   row-gap: 7.5rem !important;
+}
+
+.row-gap-124 {
+  row-gap: 7.75rem !important;
 }
 
 .row-gap-144 {
@@ -13057,6 +13206,11 @@ fieldset:disabled .btn {
 .column-gap-120 {
   -webkit-column-gap: 7.5rem !important;
           column-gap: 7.5rem !important;
+}
+
+.column-gap-124 {
+  -webkit-column-gap: 7.75rem !important;
+          column-gap: 7.75rem !important;
 }
 
 .column-gap-144 {
@@ -14280,6 +14434,9 @@ fieldset:disabled .btn {
   .m-sm-120 {
     margin: 7.5rem !important;
   }
+  .m-sm-124 {
+    margin: 7.75rem !important;
+  }
   .m-sm-144 {
     margin: 9rem !important;
   }
@@ -14391,6 +14548,10 @@ fieldset:disabled .btn {
   .mx-sm-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-sm-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-sm-144 {
     margin-right: 9rem !important;
@@ -14508,6 +14669,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-sm-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-sm-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -14599,6 +14764,9 @@ fieldset:disabled .btn {
   .mt-sm-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-sm-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-sm-144 {
     margin-top: 9rem !important;
   }
@@ -14685,6 +14853,9 @@ fieldset:disabled .btn {
   }
   .me-sm-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-sm-124 {
+    margin-right: 7.75rem !important;
   }
   .me-sm-144 {
     margin-right: 9rem !important;
@@ -14773,6 +14944,9 @@ fieldset:disabled .btn {
   .mb-sm-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-sm-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-sm-144 {
     margin-bottom: 9rem !important;
   }
@@ -14860,6 +15034,9 @@ fieldset:disabled .btn {
   .ms-sm-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-sm-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-sm-144 {
     margin-left: 9rem !important;
   }
@@ -14943,6 +15120,9 @@ fieldset:disabled .btn {
   }
   .m-sm-n120 {
     margin: -7.5rem !important;
+  }
+  .m-sm-n124 {
+    margin: -7.75rem !important;
   }
   .m-sm-n144 {
     margin: -9rem !important;
@@ -15048,6 +15228,10 @@ fieldset:disabled .btn {
   .mx-sm-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-sm-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-sm-n144 {
     margin-right: -9rem !important;
@@ -15157,6 +15341,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-sm-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-sm-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -15241,6 +15429,9 @@ fieldset:disabled .btn {
   .mt-sm-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-sm-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-sm-n144 {
     margin-top: -9rem !important;
   }
@@ -15321,6 +15512,9 @@ fieldset:disabled .btn {
   }
   .me-sm-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-sm-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-sm-n144 {
     margin-right: -9rem !important;
@@ -15403,6 +15597,9 @@ fieldset:disabled .btn {
   .mb-sm-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-sm-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-sm-n144 {
     margin-bottom: -9rem !important;
   }
@@ -15483,6 +15680,9 @@ fieldset:disabled .btn {
   }
   .ms-sm-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-sm-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-sm-n144 {
     margin-left: -9rem !important;
@@ -15567,6 +15767,9 @@ fieldset:disabled .btn {
   }
   .p-sm-120 {
     padding: 7.5rem !important;
+  }
+  .p-sm-124 {
+    padding: 7.75rem !important;
   }
   .p-sm-144 {
     padding: 9rem !important;
@@ -15676,6 +15879,10 @@ fieldset:disabled .btn {
   .px-sm-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-sm-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-sm-144 {
     padding-right: 9rem !important;
@@ -15789,6 +15996,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-sm-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-sm-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -15876,6 +16087,9 @@ fieldset:disabled .btn {
   .pt-sm-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-sm-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-sm-144 {
     padding-top: 9rem !important;
   }
@@ -15959,6 +16173,9 @@ fieldset:disabled .btn {
   }
   .pe-sm-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-sm-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-sm-144 {
     padding-right: 9rem !important;
@@ -16044,6 +16261,9 @@ fieldset:disabled .btn {
   .pb-sm-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-sm-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-sm-144 {
     padding-bottom: 9rem !important;
   }
@@ -16127,6 +16347,9 @@ fieldset:disabled .btn {
   }
   .ps-sm-120 {
     padding-left: 7.5rem !important;
+  }
+  .ps-sm-124 {
+    padding-left: 7.75rem !important;
   }
   .ps-sm-144 {
     padding-left: 9rem !important;
@@ -16212,6 +16435,9 @@ fieldset:disabled .btn {
   .gap-sm-120 {
     gap: 7.5rem !important;
   }
+  .gap-sm-124 {
+    gap: 7.75rem !important;
+  }
   .gap-sm-144 {
     gap: 9rem !important;
   }
@@ -16295,6 +16521,9 @@ fieldset:disabled .btn {
   }
   .row-gap-sm-120 {
     row-gap: 7.5rem !important;
+  }
+  .row-gap-sm-124 {
+    row-gap: 7.75rem !important;
   }
   .row-gap-sm-144 {
     row-gap: 9rem !important;
@@ -16404,6 +16633,10 @@ fieldset:disabled .btn {
   .column-gap-sm-120 {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
+  }
+  .column-gap-sm-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
   }
   .column-gap-sm-144 {
     -webkit-column-gap: 9rem !important;
@@ -16776,6 +17009,9 @@ fieldset:disabled .btn {
   .m-md-120 {
     margin: 7.5rem !important;
   }
+  .m-md-124 {
+    margin: 7.75rem !important;
+  }
   .m-md-144 {
     margin: 9rem !important;
   }
@@ -16887,6 +17123,10 @@ fieldset:disabled .btn {
   .mx-md-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-md-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-md-144 {
     margin-right: 9rem !important;
@@ -17004,6 +17244,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-md-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-md-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -17095,6 +17339,9 @@ fieldset:disabled .btn {
   .mt-md-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-md-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-md-144 {
     margin-top: 9rem !important;
   }
@@ -17181,6 +17428,9 @@ fieldset:disabled .btn {
   }
   .me-md-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-md-124 {
+    margin-right: 7.75rem !important;
   }
   .me-md-144 {
     margin-right: 9rem !important;
@@ -17269,6 +17519,9 @@ fieldset:disabled .btn {
   .mb-md-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-md-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-md-144 {
     margin-bottom: 9rem !important;
   }
@@ -17356,6 +17609,9 @@ fieldset:disabled .btn {
   .ms-md-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-md-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-md-144 {
     margin-left: 9rem !important;
   }
@@ -17439,6 +17695,9 @@ fieldset:disabled .btn {
   }
   .m-md-n120 {
     margin: -7.5rem !important;
+  }
+  .m-md-n124 {
+    margin: -7.75rem !important;
   }
   .m-md-n144 {
     margin: -9rem !important;
@@ -17544,6 +17803,10 @@ fieldset:disabled .btn {
   .mx-md-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-md-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-md-n144 {
     margin-right: -9rem !important;
@@ -17653,6 +17916,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-md-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-md-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -17737,6 +18004,9 @@ fieldset:disabled .btn {
   .mt-md-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-md-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-md-n144 {
     margin-top: -9rem !important;
   }
@@ -17817,6 +18087,9 @@ fieldset:disabled .btn {
   }
   .me-md-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-md-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-md-n144 {
     margin-right: -9rem !important;
@@ -17899,6 +18172,9 @@ fieldset:disabled .btn {
   .mb-md-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-md-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-md-n144 {
     margin-bottom: -9rem !important;
   }
@@ -17979,6 +18255,9 @@ fieldset:disabled .btn {
   }
   .ms-md-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-md-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-md-n144 {
     margin-left: -9rem !important;
@@ -18063,6 +18342,9 @@ fieldset:disabled .btn {
   }
   .p-md-120 {
     padding: 7.5rem !important;
+  }
+  .p-md-124 {
+    padding: 7.75rem !important;
   }
   .p-md-144 {
     padding: 9rem !important;
@@ -18172,6 +18454,10 @@ fieldset:disabled .btn {
   .px-md-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-md-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-md-144 {
     padding-right: 9rem !important;
@@ -18285,6 +18571,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-md-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-md-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -18372,6 +18662,9 @@ fieldset:disabled .btn {
   .pt-md-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-md-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-md-144 {
     padding-top: 9rem !important;
   }
@@ -18455,6 +18748,9 @@ fieldset:disabled .btn {
   }
   .pe-md-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-md-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-md-144 {
     padding-right: 9rem !important;
@@ -18540,6 +18836,9 @@ fieldset:disabled .btn {
   .pb-md-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-md-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-md-144 {
     padding-bottom: 9rem !important;
   }
@@ -18623,6 +18922,9 @@ fieldset:disabled .btn {
   }
   .ps-md-120 {
     padding-left: 7.5rem !important;
+  }
+  .ps-md-124 {
+    padding-left: 7.75rem !important;
   }
   .ps-md-144 {
     padding-left: 9rem !important;
@@ -18708,6 +19010,9 @@ fieldset:disabled .btn {
   .gap-md-120 {
     gap: 7.5rem !important;
   }
+  .gap-md-124 {
+    gap: 7.75rem !important;
+  }
   .gap-md-144 {
     gap: 9rem !important;
   }
@@ -18791,6 +19096,9 @@ fieldset:disabled .btn {
   }
   .row-gap-md-120 {
     row-gap: 7.5rem !important;
+  }
+  .row-gap-md-124 {
+    row-gap: 7.75rem !important;
   }
   .row-gap-md-144 {
     row-gap: 9rem !important;
@@ -18900,6 +19208,10 @@ fieldset:disabled .btn {
   .column-gap-md-120 {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
+  }
+  .column-gap-md-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
   }
   .column-gap-md-144 {
     -webkit-column-gap: 9rem !important;
@@ -19272,6 +19584,9 @@ fieldset:disabled .btn {
   .m-lg-120 {
     margin: 7.5rem !important;
   }
+  .m-lg-124 {
+    margin: 7.75rem !important;
+  }
   .m-lg-144 {
     margin: 9rem !important;
   }
@@ -19383,6 +19698,10 @@ fieldset:disabled .btn {
   .mx-lg-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-lg-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-lg-144 {
     margin-right: 9rem !important;
@@ -19500,6 +19819,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-lg-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-lg-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -19591,6 +19914,9 @@ fieldset:disabled .btn {
   .mt-lg-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-lg-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-lg-144 {
     margin-top: 9rem !important;
   }
@@ -19677,6 +20003,9 @@ fieldset:disabled .btn {
   }
   .me-lg-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-lg-124 {
+    margin-right: 7.75rem !important;
   }
   .me-lg-144 {
     margin-right: 9rem !important;
@@ -19765,6 +20094,9 @@ fieldset:disabled .btn {
   .mb-lg-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-lg-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-lg-144 {
     margin-bottom: 9rem !important;
   }
@@ -19852,6 +20184,9 @@ fieldset:disabled .btn {
   .ms-lg-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-lg-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-lg-144 {
     margin-left: 9rem !important;
   }
@@ -19935,6 +20270,9 @@ fieldset:disabled .btn {
   }
   .m-lg-n120 {
     margin: -7.5rem !important;
+  }
+  .m-lg-n124 {
+    margin: -7.75rem !important;
   }
   .m-lg-n144 {
     margin: -9rem !important;
@@ -20040,6 +20378,10 @@ fieldset:disabled .btn {
   .mx-lg-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-lg-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-lg-n144 {
     margin-right: -9rem !important;
@@ -20149,6 +20491,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-lg-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-lg-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -20233,6 +20579,9 @@ fieldset:disabled .btn {
   .mt-lg-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-lg-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-lg-n144 {
     margin-top: -9rem !important;
   }
@@ -20313,6 +20662,9 @@ fieldset:disabled .btn {
   }
   .me-lg-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-lg-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-lg-n144 {
     margin-right: -9rem !important;
@@ -20395,6 +20747,9 @@ fieldset:disabled .btn {
   .mb-lg-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-lg-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-lg-n144 {
     margin-bottom: -9rem !important;
   }
@@ -20475,6 +20830,9 @@ fieldset:disabled .btn {
   }
   .ms-lg-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-lg-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-lg-n144 {
     margin-left: -9rem !important;
@@ -20559,6 +20917,9 @@ fieldset:disabled .btn {
   }
   .p-lg-120 {
     padding: 7.5rem !important;
+  }
+  .p-lg-124 {
+    padding: 7.75rem !important;
   }
   .p-lg-144 {
     padding: 9rem !important;
@@ -20668,6 +21029,10 @@ fieldset:disabled .btn {
   .px-lg-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-lg-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-lg-144 {
     padding-right: 9rem !important;
@@ -20781,6 +21146,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-lg-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-lg-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -20868,6 +21237,9 @@ fieldset:disabled .btn {
   .pt-lg-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-lg-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-lg-144 {
     padding-top: 9rem !important;
   }
@@ -20951,6 +21323,9 @@ fieldset:disabled .btn {
   }
   .pe-lg-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-lg-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-lg-144 {
     padding-right: 9rem !important;
@@ -21036,6 +21411,9 @@ fieldset:disabled .btn {
   .pb-lg-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-lg-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-lg-144 {
     padding-bottom: 9rem !important;
   }
@@ -21119,6 +21497,9 @@ fieldset:disabled .btn {
   }
   .ps-lg-120 {
     padding-left: 7.5rem !important;
+  }
+  .ps-lg-124 {
+    padding-left: 7.75rem !important;
   }
   .ps-lg-144 {
     padding-left: 9rem !important;
@@ -21204,6 +21585,9 @@ fieldset:disabled .btn {
   .gap-lg-120 {
     gap: 7.5rem !important;
   }
+  .gap-lg-124 {
+    gap: 7.75rem !important;
+  }
   .gap-lg-144 {
     gap: 9rem !important;
   }
@@ -21287,6 +21671,9 @@ fieldset:disabled .btn {
   }
   .row-gap-lg-120 {
     row-gap: 7.5rem !important;
+  }
+  .row-gap-lg-124 {
+    row-gap: 7.75rem !important;
   }
   .row-gap-lg-144 {
     row-gap: 9rem !important;
@@ -21396,6 +21783,10 @@ fieldset:disabled .btn {
   .column-gap-lg-120 {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
+  }
+  .column-gap-lg-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
   }
   .column-gap-lg-144 {
     -webkit-column-gap: 9rem !important;
@@ -21768,6 +22159,9 @@ fieldset:disabled .btn {
   .m-xl-120 {
     margin: 7.5rem !important;
   }
+  .m-xl-124 {
+    margin: 7.75rem !important;
+  }
   .m-xl-144 {
     margin: 9rem !important;
   }
@@ -21879,6 +22273,10 @@ fieldset:disabled .btn {
   .mx-xl-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-xl-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-xl-144 {
     margin-right: 9rem !important;
@@ -21996,6 +22394,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-xl-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-xl-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -22087,6 +22489,9 @@ fieldset:disabled .btn {
   .mt-xl-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-xl-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-xl-144 {
     margin-top: 9rem !important;
   }
@@ -22173,6 +22578,9 @@ fieldset:disabled .btn {
   }
   .me-xl-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-xl-124 {
+    margin-right: 7.75rem !important;
   }
   .me-xl-144 {
     margin-right: 9rem !important;
@@ -22261,6 +22669,9 @@ fieldset:disabled .btn {
   .mb-xl-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-xl-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-xl-144 {
     margin-bottom: 9rem !important;
   }
@@ -22348,6 +22759,9 @@ fieldset:disabled .btn {
   .ms-xl-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-xl-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-xl-144 {
     margin-left: 9rem !important;
   }
@@ -22431,6 +22845,9 @@ fieldset:disabled .btn {
   }
   .m-xl-n120 {
     margin: -7.5rem !important;
+  }
+  .m-xl-n124 {
+    margin: -7.75rem !important;
   }
   .m-xl-n144 {
     margin: -9rem !important;
@@ -22536,6 +22953,10 @@ fieldset:disabled .btn {
   .mx-xl-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-xl-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-xl-n144 {
     margin-right: -9rem !important;
@@ -22645,6 +23066,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-xl-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-xl-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -22729,6 +23154,9 @@ fieldset:disabled .btn {
   .mt-xl-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-xl-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-xl-n144 {
     margin-top: -9rem !important;
   }
@@ -22809,6 +23237,9 @@ fieldset:disabled .btn {
   }
   .me-xl-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-xl-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-xl-n144 {
     margin-right: -9rem !important;
@@ -22891,6 +23322,9 @@ fieldset:disabled .btn {
   .mb-xl-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-xl-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-xl-n144 {
     margin-bottom: -9rem !important;
   }
@@ -22971,6 +23405,9 @@ fieldset:disabled .btn {
   }
   .ms-xl-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-xl-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-xl-n144 {
     margin-left: -9rem !important;
@@ -23055,6 +23492,9 @@ fieldset:disabled .btn {
   }
   .p-xl-120 {
     padding: 7.5rem !important;
+  }
+  .p-xl-124 {
+    padding: 7.75rem !important;
   }
   .p-xl-144 {
     padding: 9rem !important;
@@ -23164,6 +23604,10 @@ fieldset:disabled .btn {
   .px-xl-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-xl-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-xl-144 {
     padding-right: 9rem !important;
@@ -23277,6 +23721,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-xl-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-xl-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -23364,6 +23812,9 @@ fieldset:disabled .btn {
   .pt-xl-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-xl-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-xl-144 {
     padding-top: 9rem !important;
   }
@@ -23447,6 +23898,9 @@ fieldset:disabled .btn {
   }
   .pe-xl-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-xl-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-xl-144 {
     padding-right: 9rem !important;
@@ -23532,6 +23986,9 @@ fieldset:disabled .btn {
   .pb-xl-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-xl-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-xl-144 {
     padding-bottom: 9rem !important;
   }
@@ -23615,6 +24072,9 @@ fieldset:disabled .btn {
   }
   .ps-xl-120 {
     padding-left: 7.5rem !important;
+  }
+  .ps-xl-124 {
+    padding-left: 7.75rem !important;
   }
   .ps-xl-144 {
     padding-left: 9rem !important;
@@ -23700,6 +24160,9 @@ fieldset:disabled .btn {
   .gap-xl-120 {
     gap: 7.5rem !important;
   }
+  .gap-xl-124 {
+    gap: 7.75rem !important;
+  }
   .gap-xl-144 {
     gap: 9rem !important;
   }
@@ -23783,6 +24246,9 @@ fieldset:disabled .btn {
   }
   .row-gap-xl-120 {
     row-gap: 7.5rem !important;
+  }
+  .row-gap-xl-124 {
+    row-gap: 7.75rem !important;
   }
   .row-gap-xl-144 {
     row-gap: 9rem !important;
@@ -23892,6 +24358,10 @@ fieldset:disabled .btn {
   .column-gap-xl-120 {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
+  }
+  .column-gap-xl-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
   }
   .column-gap-xl-144 {
     -webkit-column-gap: 9rem !important;
@@ -24264,6 +24734,9 @@ fieldset:disabled .btn {
   .m-xxl-120 {
     margin: 7.5rem !important;
   }
+  .m-xxl-124 {
+    margin: 7.75rem !important;
+  }
   .m-xxl-144 {
     margin: 9rem !important;
   }
@@ -24375,6 +24848,10 @@ fieldset:disabled .btn {
   .mx-xxl-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-xxl-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-xxl-144 {
     margin-right: 9rem !important;
@@ -24492,6 +24969,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-xxl-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-xxl-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -24583,6 +25064,9 @@ fieldset:disabled .btn {
   .mt-xxl-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-xxl-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-xxl-144 {
     margin-top: 9rem !important;
   }
@@ -24669,6 +25153,9 @@ fieldset:disabled .btn {
   }
   .me-xxl-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-xxl-124 {
+    margin-right: 7.75rem !important;
   }
   .me-xxl-144 {
     margin-right: 9rem !important;
@@ -24757,6 +25244,9 @@ fieldset:disabled .btn {
   .mb-xxl-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-xxl-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-xxl-144 {
     margin-bottom: 9rem !important;
   }
@@ -24844,6 +25334,9 @@ fieldset:disabled .btn {
   .ms-xxl-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-xxl-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-xxl-144 {
     margin-left: 9rem !important;
   }
@@ -24927,6 +25420,9 @@ fieldset:disabled .btn {
   }
   .m-xxl-n120 {
     margin: -7.5rem !important;
+  }
+  .m-xxl-n124 {
+    margin: -7.75rem !important;
   }
   .m-xxl-n144 {
     margin: -9rem !important;
@@ -25032,6 +25528,10 @@ fieldset:disabled .btn {
   .mx-xxl-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-xxl-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-xxl-n144 {
     margin-right: -9rem !important;
@@ -25141,6 +25641,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-xxl-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-xxl-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -25225,6 +25729,9 @@ fieldset:disabled .btn {
   .mt-xxl-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-xxl-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-xxl-n144 {
     margin-top: -9rem !important;
   }
@@ -25305,6 +25812,9 @@ fieldset:disabled .btn {
   }
   .me-xxl-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-xxl-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-xxl-n144 {
     margin-right: -9rem !important;
@@ -25387,6 +25897,9 @@ fieldset:disabled .btn {
   .mb-xxl-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-xxl-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-xxl-n144 {
     margin-bottom: -9rem !important;
   }
@@ -25467,6 +25980,9 @@ fieldset:disabled .btn {
   }
   .ms-xxl-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-xxl-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-xxl-n144 {
     margin-left: -9rem !important;
@@ -25551,6 +26067,9 @@ fieldset:disabled .btn {
   }
   .p-xxl-120 {
     padding: 7.5rem !important;
+  }
+  .p-xxl-124 {
+    padding: 7.75rem !important;
   }
   .p-xxl-144 {
     padding: 9rem !important;
@@ -25660,6 +26179,10 @@ fieldset:disabled .btn {
   .px-xxl-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-xxl-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-xxl-144 {
     padding-right: 9rem !important;
@@ -25773,6 +26296,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-xxl-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-xxl-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -25860,6 +26387,9 @@ fieldset:disabled .btn {
   .pt-xxl-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-xxl-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-xxl-144 {
     padding-top: 9rem !important;
   }
@@ -25943,6 +26473,9 @@ fieldset:disabled .btn {
   }
   .pe-xxl-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-xxl-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-xxl-144 {
     padding-right: 9rem !important;
@@ -26028,6 +26561,9 @@ fieldset:disabled .btn {
   .pb-xxl-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-xxl-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-xxl-144 {
     padding-bottom: 9rem !important;
   }
@@ -26111,6 +26647,9 @@ fieldset:disabled .btn {
   }
   .ps-xxl-120 {
     padding-left: 7.5rem !important;
+  }
+  .ps-xxl-124 {
+    padding-left: 7.75rem !important;
   }
   .ps-xxl-144 {
     padding-left: 9rem !important;
@@ -26196,6 +26735,9 @@ fieldset:disabled .btn {
   .gap-xxl-120 {
     gap: 7.5rem !important;
   }
+  .gap-xxl-124 {
+    gap: 7.75rem !important;
+  }
   .gap-xxl-144 {
     gap: 9rem !important;
   }
@@ -26279,6 +26821,9 @@ fieldset:disabled .btn {
   }
   .row-gap-xxl-120 {
     row-gap: 7.5rem !important;
+  }
+  .row-gap-xxl-124 {
+    row-gap: 7.75rem !important;
   }
   .row-gap-xxl-144 {
     row-gap: 9rem !important;
@@ -26388,6 +26933,10 @@ fieldset:disabled .btn {
   .column-gap-xxl-120 {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
+  }
+  .column-gap-xxl-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
   }
   .column-gap-xxl-144 {
     -webkit-column-gap: 9rem !important;
@@ -26778,6 +27327,14 @@ fieldset:disabled .btn {
 
 .border-top-0 {
   border-top: 0 !important;
+}
+
+.border-end {
+  border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+.border-end-0 {
+  border-right: 0 !important;
 }
 
 .border-end {
@@ -27313,6 +27870,10 @@ fieldset:disabled .btn {
   margin: 7.5rem !important;
 }
 
+.m-124 {
+  margin: 7.75rem !important;
+}
+
 .m-144 {
   margin: 9rem !important;
 }
@@ -27452,6 +28013,11 @@ fieldset:disabled .btn {
 .mx-120 {
   margin-right: 7.5rem !important;
   margin-left: 7.5rem !important;
+}
+
+.mx-124 {
+  margin-right: 7.75rem !important;
+  margin-left: 7.75rem !important;
 }
 
 .mx-144 {
@@ -27599,6 +28165,11 @@ fieldset:disabled .btn {
   margin-bottom: 7.5rem !important;
 }
 
+.my-124 {
+  margin-top: 7.75rem !important;
+  margin-bottom: 7.75rem !important;
+}
+
 .my-144 {
   margin-top: 9rem !important;
   margin-bottom: 9rem !important;
@@ -27719,6 +28290,10 @@ fieldset:disabled .btn {
   margin-top: 7.5rem !important;
 }
 
+.mt-124 {
+  margin-top: 7.75rem !important;
+}
+
 .mt-144 {
   margin-top: 9rem !important;
 }
@@ -27833,6 +28408,10 @@ fieldset:disabled .btn {
 
 .me-120 {
   margin-right: 7.5rem !important;
+}
+
+.me-124 {
+  margin-right: 7.75rem !important;
 }
 
 .me-144 {
@@ -27951,6 +28530,10 @@ fieldset:disabled .btn {
   margin-bottom: 7.5rem !important;
 }
 
+.mb-124 {
+  margin-bottom: 7.75rem !important;
+}
+
 .mb-144 {
   margin-bottom: 9rem !important;
 }
@@ -28067,6 +28650,10 @@ fieldset:disabled .btn {
   margin-left: 7.5rem !important;
 }
 
+.ms-124 {
+  margin-left: 7.75rem !important;
+}
+
 .ms-144 {
   margin-left: 9rem !important;
 }
@@ -28177,6 +28764,10 @@ fieldset:disabled .btn {
 
 .m-n120 {
   margin: -7.5rem !important;
+}
+
+.m-n124 {
+  margin: -7.75rem !important;
 }
 
 .m-n144 {
@@ -28309,6 +28900,11 @@ fieldset:disabled .btn {
 .mx-n120 {
   margin-right: -7.5rem !important;
   margin-left: -7.5rem !important;
+}
+
+.mx-n124 {
+  margin-right: -7.75rem !important;
+  margin-left: -7.75rem !important;
 }
 
 .mx-n144 {
@@ -28446,6 +29042,11 @@ fieldset:disabled .btn {
   margin-bottom: -7.5rem !important;
 }
 
+.my-n124 {
+  margin-top: -7.75rem !important;
+  margin-bottom: -7.75rem !important;
+}
+
 .my-n144 {
   margin-top: -9rem !important;
   margin-bottom: -9rem !important;
@@ -28557,6 +29158,10 @@ fieldset:disabled .btn {
   margin-top: -7.5rem !important;
 }
 
+.mt-n124 {
+  margin-top: -7.75rem !important;
+}
+
 .mt-n144 {
   margin-top: -9rem !important;
 }
@@ -28663,6 +29268,10 @@ fieldset:disabled .btn {
 
 .me-n120 {
   margin-right: -7.5rem !important;
+}
+
+.me-n124 {
+  margin-right: -7.75rem !important;
 }
 
 .me-n144 {
@@ -28773,6 +29382,10 @@ fieldset:disabled .btn {
   margin-bottom: -7.5rem !important;
 }
 
+.mb-n124 {
+  margin-bottom: -7.75rem !important;
+}
+
 .mb-n144 {
   margin-bottom: -9rem !important;
 }
@@ -28879,6 +29492,10 @@ fieldset:disabled .btn {
 
 .ms-n120 {
   margin-left: -7.5rem !important;
+}
+
+.ms-n124 {
+  margin-left: -7.75rem !important;
 }
 
 .ms-n144 {
@@ -28991,6 +29608,10 @@ fieldset:disabled .btn {
 
 .p-120 {
   padding: 7.5rem !important;
+}
+
+.p-124 {
+  padding: 7.75rem !important;
 }
 
 .p-144 {
@@ -29128,6 +29749,11 @@ fieldset:disabled .btn {
 .px-120 {
   padding-right: 7.5rem !important;
   padding-left: 7.5rem !important;
+}
+
+.px-124 {
+  padding-right: 7.75rem !important;
+  padding-left: 7.75rem !important;
 }
 
 .px-144 {
@@ -29270,6 +29896,11 @@ fieldset:disabled .btn {
   padding-bottom: 7.5rem !important;
 }
 
+.py-124 {
+  padding-top: 7.75rem !important;
+  padding-bottom: 7.75rem !important;
+}
+
 .py-144 {
   padding-top: 9rem !important;
   padding-bottom: 9rem !important;
@@ -29385,6 +30016,10 @@ fieldset:disabled .btn {
   padding-top: 7.5rem !important;
 }
 
+.pt-124 {
+  padding-top: 7.75rem !important;
+}
+
 .pt-144 {
   padding-top: 9rem !important;
 }
@@ -29495,6 +30130,10 @@ fieldset:disabled .btn {
 
 .pe-120 {
   padding-right: 7.5rem !important;
+}
+
+.pe-124 {
+  padding-right: 7.75rem !important;
 }
 
 .pe-144 {
@@ -29609,6 +30248,10 @@ fieldset:disabled .btn {
   padding-bottom: 7.5rem !important;
 }
 
+.pb-124 {
+  padding-bottom: 7.75rem !important;
+}
+
 .pb-144 {
   padding-bottom: 9rem !important;
 }
@@ -29721,6 +30364,10 @@ fieldset:disabled .btn {
   padding-left: 7.5rem !important;
 }
 
+.ps-124 {
+  padding-left: 7.75rem !important;
+}
+
 .ps-144 {
   padding-left: 9rem !important;
 }
@@ -29831,6 +30478,10 @@ fieldset:disabled .btn {
 
 .gap-120 {
   gap: 7.5rem !important;
+}
+
+.gap-124 {
+  gap: 7.75rem !important;
 }
 
 .gap-144 {
@@ -30766,6 +31417,10 @@ fieldset:disabled .btn {
   row-gap: 7.5rem !important;
 }
 
+.row-gap-124 {
+  row-gap: 7.75rem !important;
+}
+
 .row-gap-144 {
   row-gap: 9rem !important;
 }
@@ -30901,6 +31556,11 @@ fieldset:disabled .btn {
 .column-gap-120 {
   -webkit-column-gap: 7.5rem !important;
           column-gap: 7.5rem !important;
+}
+
+.column-gap-124 {
+  -webkit-column-gap: 7.75rem !important;
+          column-gap: 7.75rem !important;
 }
 
 .column-gap-144 {
@@ -31247,6 +31907,12 @@ fieldset:disabled .btn {
   .d-sm-none {
     display: none !important;
   }
+  .border-end-sm {
+    border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+  .border-end-sm-0 {
+    border-right: 0 !important;
+  }
   .border-bottom-sm {
     border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
   }
@@ -31532,6 +32198,9 @@ fieldset:disabled .btn {
   .m-sm-120 {
     margin: 7.5rem !important;
   }
+  .m-sm-124 {
+    margin: 7.75rem !important;
+  }
   .m-sm-144 {
     margin: 9rem !important;
   }
@@ -31643,6 +32312,10 @@ fieldset:disabled .btn {
   .mx-sm-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-sm-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-sm-144 {
     margin-right: 9rem !important;
@@ -31760,6 +32433,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-sm-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-sm-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -31851,6 +32528,9 @@ fieldset:disabled .btn {
   .mt-sm-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-sm-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-sm-144 {
     margin-top: 9rem !important;
   }
@@ -31937,6 +32617,9 @@ fieldset:disabled .btn {
   }
   .me-sm-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-sm-124 {
+    margin-right: 7.75rem !important;
   }
   .me-sm-144 {
     margin-right: 9rem !important;
@@ -32025,6 +32708,9 @@ fieldset:disabled .btn {
   .mb-sm-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-sm-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-sm-144 {
     margin-bottom: 9rem !important;
   }
@@ -32112,6 +32798,9 @@ fieldset:disabled .btn {
   .ms-sm-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-sm-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-sm-144 {
     margin-left: 9rem !important;
   }
@@ -32195,6 +32884,9 @@ fieldset:disabled .btn {
   }
   .m-sm-n120 {
     margin: -7.5rem !important;
+  }
+  .m-sm-n124 {
+    margin: -7.75rem !important;
   }
   .m-sm-n144 {
     margin: -9rem !important;
@@ -32300,6 +32992,10 @@ fieldset:disabled .btn {
   .mx-sm-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-sm-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-sm-n144 {
     margin-right: -9rem !important;
@@ -32409,6 +33105,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-sm-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-sm-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -32493,6 +33193,9 @@ fieldset:disabled .btn {
   .mt-sm-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-sm-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-sm-n144 {
     margin-top: -9rem !important;
   }
@@ -32573,6 +33276,9 @@ fieldset:disabled .btn {
   }
   .me-sm-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-sm-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-sm-n144 {
     margin-right: -9rem !important;
@@ -32655,6 +33361,9 @@ fieldset:disabled .btn {
   .mb-sm-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-sm-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-sm-n144 {
     margin-bottom: -9rem !important;
   }
@@ -32735,6 +33444,9 @@ fieldset:disabled .btn {
   }
   .ms-sm-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-sm-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-sm-n144 {
     margin-left: -9rem !important;
@@ -32819,6 +33531,9 @@ fieldset:disabled .btn {
   }
   .p-sm-120 {
     padding: 7.5rem !important;
+  }
+  .p-sm-124 {
+    padding: 7.75rem !important;
   }
   .p-sm-144 {
     padding: 9rem !important;
@@ -32928,6 +33643,10 @@ fieldset:disabled .btn {
   .px-sm-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-sm-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-sm-144 {
     padding-right: 9rem !important;
@@ -33041,6 +33760,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-sm-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-sm-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -33128,6 +33851,9 @@ fieldset:disabled .btn {
   .pt-sm-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-sm-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-sm-144 {
     padding-top: 9rem !important;
   }
@@ -33211,6 +33937,9 @@ fieldset:disabled .btn {
   }
   .pe-sm-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-sm-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-sm-144 {
     padding-right: 9rem !important;
@@ -33296,6 +34025,9 @@ fieldset:disabled .btn {
   .pb-sm-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-sm-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-sm-144 {
     padding-bottom: 9rem !important;
   }
@@ -33380,6 +34112,9 @@ fieldset:disabled .btn {
   .ps-sm-120 {
     padding-left: 7.5rem !important;
   }
+  .ps-sm-124 {
+    padding-left: 7.75rem !important;
+  }
   .ps-sm-144 {
     padding-left: 9rem !important;
   }
@@ -33463,6 +34198,9 @@ fieldset:disabled .btn {
   }
   .gap-sm-120 {
     gap: 7.5rem !important;
+  }
+  .gap-sm-124 {
+    gap: 7.75rem !important;
   }
   .gap-sm-144 {
     gap: 9rem !important;
@@ -33625,6 +34363,9 @@ fieldset:disabled .btn {
   .row-gap-sm-120 {
     row-gap: 7.5rem !important;
   }
+  .row-gap-sm-124 {
+    row-gap: 7.75rem !important;
+  }
   .row-gap-sm-144 {
     row-gap: 9rem !important;
   }
@@ -33734,6 +34475,10 @@ fieldset:disabled .btn {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
   }
+  .column-gap-sm-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
+  }
   .column-gap-sm-144 {
     -webkit-column-gap: 9rem !important;
             column-gap: 9rem !important;
@@ -33826,6 +34571,12 @@ fieldset:disabled .btn {
   }
   .d-md-none {
     display: none !important;
+  }
+  .border-end-md {
+    border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+  .border-end-md-0 {
+    border-right: 0 !important;
   }
   .border-bottom-md {
     border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
@@ -34112,6 +34863,9 @@ fieldset:disabled .btn {
   .m-md-120 {
     margin: 7.5rem !important;
   }
+  .m-md-124 {
+    margin: 7.75rem !important;
+  }
   .m-md-144 {
     margin: 9rem !important;
   }
@@ -34223,6 +34977,10 @@ fieldset:disabled .btn {
   .mx-md-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-md-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-md-144 {
     margin-right: 9rem !important;
@@ -34340,6 +35098,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-md-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-md-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -34431,6 +35193,9 @@ fieldset:disabled .btn {
   .mt-md-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-md-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-md-144 {
     margin-top: 9rem !important;
   }
@@ -34517,6 +35282,9 @@ fieldset:disabled .btn {
   }
   .me-md-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-md-124 {
+    margin-right: 7.75rem !important;
   }
   .me-md-144 {
     margin-right: 9rem !important;
@@ -34605,6 +35373,9 @@ fieldset:disabled .btn {
   .mb-md-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-md-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-md-144 {
     margin-bottom: 9rem !important;
   }
@@ -34692,6 +35463,9 @@ fieldset:disabled .btn {
   .ms-md-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-md-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-md-144 {
     margin-left: 9rem !important;
   }
@@ -34775,6 +35549,9 @@ fieldset:disabled .btn {
   }
   .m-md-n120 {
     margin: -7.5rem !important;
+  }
+  .m-md-n124 {
+    margin: -7.75rem !important;
   }
   .m-md-n144 {
     margin: -9rem !important;
@@ -34880,6 +35657,10 @@ fieldset:disabled .btn {
   .mx-md-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-md-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-md-n144 {
     margin-right: -9rem !important;
@@ -34989,6 +35770,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-md-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-md-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -35073,6 +35858,9 @@ fieldset:disabled .btn {
   .mt-md-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-md-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-md-n144 {
     margin-top: -9rem !important;
   }
@@ -35153,6 +35941,9 @@ fieldset:disabled .btn {
   }
   .me-md-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-md-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-md-n144 {
     margin-right: -9rem !important;
@@ -35235,6 +36026,9 @@ fieldset:disabled .btn {
   .mb-md-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-md-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-md-n144 {
     margin-bottom: -9rem !important;
   }
@@ -35315,6 +36109,9 @@ fieldset:disabled .btn {
   }
   .ms-md-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-md-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-md-n144 {
     margin-left: -9rem !important;
@@ -35399,6 +36196,9 @@ fieldset:disabled .btn {
   }
   .p-md-120 {
     padding: 7.5rem !important;
+  }
+  .p-md-124 {
+    padding: 7.75rem !important;
   }
   .p-md-144 {
     padding: 9rem !important;
@@ -35508,6 +36308,10 @@ fieldset:disabled .btn {
   .px-md-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-md-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-md-144 {
     padding-right: 9rem !important;
@@ -35621,6 +36425,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-md-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-md-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -35708,6 +36516,9 @@ fieldset:disabled .btn {
   .pt-md-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-md-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-md-144 {
     padding-top: 9rem !important;
   }
@@ -35791,6 +36602,9 @@ fieldset:disabled .btn {
   }
   .pe-md-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-md-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-md-144 {
     padding-right: 9rem !important;
@@ -35876,6 +36690,9 @@ fieldset:disabled .btn {
   .pb-md-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-md-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-md-144 {
     padding-bottom: 9rem !important;
   }
@@ -35960,6 +36777,9 @@ fieldset:disabled .btn {
   .ps-md-120 {
     padding-left: 7.5rem !important;
   }
+  .ps-md-124 {
+    padding-left: 7.75rem !important;
+  }
   .ps-md-144 {
     padding-left: 9rem !important;
   }
@@ -36043,6 +36863,9 @@ fieldset:disabled .btn {
   }
   .gap-md-120 {
     gap: 7.5rem !important;
+  }
+  .gap-md-124 {
+    gap: 7.75rem !important;
   }
   .gap-md-144 {
     gap: 9rem !important;
@@ -36205,6 +37028,9 @@ fieldset:disabled .btn {
   .row-gap-md-120 {
     row-gap: 7.5rem !important;
   }
+  .row-gap-md-124 {
+    row-gap: 7.75rem !important;
+  }
   .row-gap-md-144 {
     row-gap: 9rem !important;
   }
@@ -36314,6 +37140,10 @@ fieldset:disabled .btn {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
   }
+  .column-gap-md-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
+  }
   .column-gap-md-144 {
     -webkit-column-gap: 9rem !important;
             column-gap: 9rem !important;
@@ -36406,6 +37236,12 @@ fieldset:disabled .btn {
   }
   .d-lg-none {
     display: none !important;
+  }
+  .border-end-lg {
+    border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+  .border-end-lg-0 {
+    border-right: 0 !important;
   }
   .border-bottom-lg {
     border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
@@ -36692,6 +37528,9 @@ fieldset:disabled .btn {
   .m-lg-120 {
     margin: 7.5rem !important;
   }
+  .m-lg-124 {
+    margin: 7.75rem !important;
+  }
   .m-lg-144 {
     margin: 9rem !important;
   }
@@ -36803,6 +37642,10 @@ fieldset:disabled .btn {
   .mx-lg-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-lg-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-lg-144 {
     margin-right: 9rem !important;
@@ -36920,6 +37763,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-lg-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-lg-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -37011,6 +37858,9 @@ fieldset:disabled .btn {
   .mt-lg-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-lg-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-lg-144 {
     margin-top: 9rem !important;
   }
@@ -37097,6 +37947,9 @@ fieldset:disabled .btn {
   }
   .me-lg-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-lg-124 {
+    margin-right: 7.75rem !important;
   }
   .me-lg-144 {
     margin-right: 9rem !important;
@@ -37185,6 +38038,9 @@ fieldset:disabled .btn {
   .mb-lg-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-lg-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-lg-144 {
     margin-bottom: 9rem !important;
   }
@@ -37272,6 +38128,9 @@ fieldset:disabled .btn {
   .ms-lg-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-lg-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-lg-144 {
     margin-left: 9rem !important;
   }
@@ -37355,6 +38214,9 @@ fieldset:disabled .btn {
   }
   .m-lg-n120 {
     margin: -7.5rem !important;
+  }
+  .m-lg-n124 {
+    margin: -7.75rem !important;
   }
   .m-lg-n144 {
     margin: -9rem !important;
@@ -37460,6 +38322,10 @@ fieldset:disabled .btn {
   .mx-lg-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-lg-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-lg-n144 {
     margin-right: -9rem !important;
@@ -37569,6 +38435,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-lg-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-lg-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -37653,6 +38523,9 @@ fieldset:disabled .btn {
   .mt-lg-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-lg-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-lg-n144 {
     margin-top: -9rem !important;
   }
@@ -37733,6 +38606,9 @@ fieldset:disabled .btn {
   }
   .me-lg-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-lg-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-lg-n144 {
     margin-right: -9rem !important;
@@ -37815,6 +38691,9 @@ fieldset:disabled .btn {
   .mb-lg-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-lg-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-lg-n144 {
     margin-bottom: -9rem !important;
   }
@@ -37895,6 +38774,9 @@ fieldset:disabled .btn {
   }
   .ms-lg-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-lg-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-lg-n144 {
     margin-left: -9rem !important;
@@ -37979,6 +38861,9 @@ fieldset:disabled .btn {
   }
   .p-lg-120 {
     padding: 7.5rem !important;
+  }
+  .p-lg-124 {
+    padding: 7.75rem !important;
   }
   .p-lg-144 {
     padding: 9rem !important;
@@ -38088,6 +38973,10 @@ fieldset:disabled .btn {
   .px-lg-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-lg-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-lg-144 {
     padding-right: 9rem !important;
@@ -38201,6 +39090,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-lg-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-lg-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -38288,6 +39181,9 @@ fieldset:disabled .btn {
   .pt-lg-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-lg-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-lg-144 {
     padding-top: 9rem !important;
   }
@@ -38371,6 +39267,9 @@ fieldset:disabled .btn {
   }
   .pe-lg-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-lg-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-lg-144 {
     padding-right: 9rem !important;
@@ -38456,6 +39355,9 @@ fieldset:disabled .btn {
   .pb-lg-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-lg-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-lg-144 {
     padding-bottom: 9rem !important;
   }
@@ -38540,6 +39442,9 @@ fieldset:disabled .btn {
   .ps-lg-120 {
     padding-left: 7.5rem !important;
   }
+  .ps-lg-124 {
+    padding-left: 7.75rem !important;
+  }
   .ps-lg-144 {
     padding-left: 9rem !important;
   }
@@ -38623,6 +39528,9 @@ fieldset:disabled .btn {
   }
   .gap-lg-120 {
     gap: 7.5rem !important;
+  }
+  .gap-lg-124 {
+    gap: 7.75rem !important;
   }
   .gap-lg-144 {
     gap: 9rem !important;
@@ -38785,6 +39693,9 @@ fieldset:disabled .btn {
   .row-gap-lg-120 {
     row-gap: 7.5rem !important;
   }
+  .row-gap-lg-124 {
+    row-gap: 7.75rem !important;
+  }
   .row-gap-lg-144 {
     row-gap: 9rem !important;
   }
@@ -38894,6 +39805,10 @@ fieldset:disabled .btn {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
   }
+  .column-gap-lg-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
+  }
   .column-gap-lg-144 {
     -webkit-column-gap: 9rem !important;
             column-gap: 9rem !important;
@@ -38986,6 +39901,12 @@ fieldset:disabled .btn {
   }
   .d-xl-none {
     display: none !important;
+  }
+  .border-end-xl {
+    border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+  .border-end-xl-0 {
+    border-right: 0 !important;
   }
   .border-bottom-xl {
     border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
@@ -39272,6 +40193,9 @@ fieldset:disabled .btn {
   .m-xl-120 {
     margin: 7.5rem !important;
   }
+  .m-xl-124 {
+    margin: 7.75rem !important;
+  }
   .m-xl-144 {
     margin: 9rem !important;
   }
@@ -39383,6 +40307,10 @@ fieldset:disabled .btn {
   .mx-xl-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-xl-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-xl-144 {
     margin-right: 9rem !important;
@@ -39500,6 +40428,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-xl-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-xl-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -39591,6 +40523,9 @@ fieldset:disabled .btn {
   .mt-xl-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-xl-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-xl-144 {
     margin-top: 9rem !important;
   }
@@ -39677,6 +40612,9 @@ fieldset:disabled .btn {
   }
   .me-xl-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-xl-124 {
+    margin-right: 7.75rem !important;
   }
   .me-xl-144 {
     margin-right: 9rem !important;
@@ -39765,6 +40703,9 @@ fieldset:disabled .btn {
   .mb-xl-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-xl-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-xl-144 {
     margin-bottom: 9rem !important;
   }
@@ -39852,6 +40793,9 @@ fieldset:disabled .btn {
   .ms-xl-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-xl-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-xl-144 {
     margin-left: 9rem !important;
   }
@@ -39935,6 +40879,9 @@ fieldset:disabled .btn {
   }
   .m-xl-n120 {
     margin: -7.5rem !important;
+  }
+  .m-xl-n124 {
+    margin: -7.75rem !important;
   }
   .m-xl-n144 {
     margin: -9rem !important;
@@ -40040,6 +40987,10 @@ fieldset:disabled .btn {
   .mx-xl-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-xl-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-xl-n144 {
     margin-right: -9rem !important;
@@ -40149,6 +41100,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-xl-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-xl-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -40233,6 +41188,9 @@ fieldset:disabled .btn {
   .mt-xl-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-xl-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-xl-n144 {
     margin-top: -9rem !important;
   }
@@ -40313,6 +41271,9 @@ fieldset:disabled .btn {
   }
   .me-xl-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-xl-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-xl-n144 {
     margin-right: -9rem !important;
@@ -40395,6 +41356,9 @@ fieldset:disabled .btn {
   .mb-xl-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-xl-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-xl-n144 {
     margin-bottom: -9rem !important;
   }
@@ -40475,6 +41439,9 @@ fieldset:disabled .btn {
   }
   .ms-xl-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-xl-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-xl-n144 {
     margin-left: -9rem !important;
@@ -40559,6 +41526,9 @@ fieldset:disabled .btn {
   }
   .p-xl-120 {
     padding: 7.5rem !important;
+  }
+  .p-xl-124 {
+    padding: 7.75rem !important;
   }
   .p-xl-144 {
     padding: 9rem !important;
@@ -40668,6 +41638,10 @@ fieldset:disabled .btn {
   .px-xl-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-xl-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-xl-144 {
     padding-right: 9rem !important;
@@ -40781,6 +41755,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-xl-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-xl-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -40868,6 +41846,9 @@ fieldset:disabled .btn {
   .pt-xl-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-xl-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-xl-144 {
     padding-top: 9rem !important;
   }
@@ -40951,6 +41932,9 @@ fieldset:disabled .btn {
   }
   .pe-xl-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-xl-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-xl-144 {
     padding-right: 9rem !important;
@@ -41036,6 +42020,9 @@ fieldset:disabled .btn {
   .pb-xl-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-xl-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-xl-144 {
     padding-bottom: 9rem !important;
   }
@@ -41120,6 +42107,9 @@ fieldset:disabled .btn {
   .ps-xl-120 {
     padding-left: 7.5rem !important;
   }
+  .ps-xl-124 {
+    padding-left: 7.75rem !important;
+  }
   .ps-xl-144 {
     padding-left: 9rem !important;
   }
@@ -41203,6 +42193,9 @@ fieldset:disabled .btn {
   }
   .gap-xl-120 {
     gap: 7.5rem !important;
+  }
+  .gap-xl-124 {
+    gap: 7.75rem !important;
   }
   .gap-xl-144 {
     gap: 9rem !important;
@@ -41365,6 +42358,9 @@ fieldset:disabled .btn {
   .row-gap-xl-120 {
     row-gap: 7.5rem !important;
   }
+  .row-gap-xl-124 {
+    row-gap: 7.75rem !important;
+  }
   .row-gap-xl-144 {
     row-gap: 9rem !important;
   }
@@ -41474,6 +42470,10 @@ fieldset:disabled .btn {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
   }
+  .column-gap-xl-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
+  }
   .column-gap-xl-144 {
     -webkit-column-gap: 9rem !important;
             column-gap: 9rem !important;
@@ -41566,6 +42566,12 @@ fieldset:disabled .btn {
   }
   .d-xxl-none {
     display: none !important;
+  }
+  .border-end-xxl {
+    border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+  .border-end-xxl-0 {
+    border-right: 0 !important;
   }
   .border-bottom-xxl {
     border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
@@ -41852,6 +42858,9 @@ fieldset:disabled .btn {
   .m-xxl-120 {
     margin: 7.5rem !important;
   }
+  .m-xxl-124 {
+    margin: 7.75rem !important;
+  }
   .m-xxl-144 {
     margin: 9rem !important;
   }
@@ -41963,6 +42972,10 @@ fieldset:disabled .btn {
   .mx-xxl-120 {
     margin-right: 7.5rem !important;
     margin-left: 7.5rem !important;
+  }
+  .mx-xxl-124 {
+    margin-right: 7.75rem !important;
+    margin-left: 7.75rem !important;
   }
   .mx-xxl-144 {
     margin-right: 9rem !important;
@@ -42080,6 +43093,10 @@ fieldset:disabled .btn {
     margin-top: 7.5rem !important;
     margin-bottom: 7.5rem !important;
   }
+  .my-xxl-124 {
+    margin-top: 7.75rem !important;
+    margin-bottom: 7.75rem !important;
+  }
   .my-xxl-144 {
     margin-top: 9rem !important;
     margin-bottom: 9rem !important;
@@ -42171,6 +43188,9 @@ fieldset:disabled .btn {
   .mt-xxl-120 {
     margin-top: 7.5rem !important;
   }
+  .mt-xxl-124 {
+    margin-top: 7.75rem !important;
+  }
   .mt-xxl-144 {
     margin-top: 9rem !important;
   }
@@ -42257,6 +43277,9 @@ fieldset:disabled .btn {
   }
   .me-xxl-120 {
     margin-right: 7.5rem !important;
+  }
+  .me-xxl-124 {
+    margin-right: 7.75rem !important;
   }
   .me-xxl-144 {
     margin-right: 9rem !important;
@@ -42345,6 +43368,9 @@ fieldset:disabled .btn {
   .mb-xxl-120 {
     margin-bottom: 7.5rem !important;
   }
+  .mb-xxl-124 {
+    margin-bottom: 7.75rem !important;
+  }
   .mb-xxl-144 {
     margin-bottom: 9rem !important;
   }
@@ -42432,6 +43458,9 @@ fieldset:disabled .btn {
   .ms-xxl-120 {
     margin-left: 7.5rem !important;
   }
+  .ms-xxl-124 {
+    margin-left: 7.75rem !important;
+  }
   .ms-xxl-144 {
     margin-left: 9rem !important;
   }
@@ -42515,6 +43544,9 @@ fieldset:disabled .btn {
   }
   .m-xxl-n120 {
     margin: -7.5rem !important;
+  }
+  .m-xxl-n124 {
+    margin: -7.75rem !important;
   }
   .m-xxl-n144 {
     margin: -9rem !important;
@@ -42620,6 +43652,10 @@ fieldset:disabled .btn {
   .mx-xxl-n120 {
     margin-right: -7.5rem !important;
     margin-left: -7.5rem !important;
+  }
+  .mx-xxl-n124 {
+    margin-right: -7.75rem !important;
+    margin-left: -7.75rem !important;
   }
   .mx-xxl-n144 {
     margin-right: -9rem !important;
@@ -42729,6 +43765,10 @@ fieldset:disabled .btn {
     margin-top: -7.5rem !important;
     margin-bottom: -7.5rem !important;
   }
+  .my-xxl-n124 {
+    margin-top: -7.75rem !important;
+    margin-bottom: -7.75rem !important;
+  }
   .my-xxl-n144 {
     margin-top: -9rem !important;
     margin-bottom: -9rem !important;
@@ -42813,6 +43853,9 @@ fieldset:disabled .btn {
   .mt-xxl-n120 {
     margin-top: -7.5rem !important;
   }
+  .mt-xxl-n124 {
+    margin-top: -7.75rem !important;
+  }
   .mt-xxl-n144 {
     margin-top: -9rem !important;
   }
@@ -42893,6 +43936,9 @@ fieldset:disabled .btn {
   }
   .me-xxl-n120 {
     margin-right: -7.5rem !important;
+  }
+  .me-xxl-n124 {
+    margin-right: -7.75rem !important;
   }
   .me-xxl-n144 {
     margin-right: -9rem !important;
@@ -42975,6 +44021,9 @@ fieldset:disabled .btn {
   .mb-xxl-n120 {
     margin-bottom: -7.5rem !important;
   }
+  .mb-xxl-n124 {
+    margin-bottom: -7.75rem !important;
+  }
   .mb-xxl-n144 {
     margin-bottom: -9rem !important;
   }
@@ -43055,6 +44104,9 @@ fieldset:disabled .btn {
   }
   .ms-xxl-n120 {
     margin-left: -7.5rem !important;
+  }
+  .ms-xxl-n124 {
+    margin-left: -7.75rem !important;
   }
   .ms-xxl-n144 {
     margin-left: -9rem !important;
@@ -43139,6 +44191,9 @@ fieldset:disabled .btn {
   }
   .p-xxl-120 {
     padding: 7.5rem !important;
+  }
+  .p-xxl-124 {
+    padding: 7.75rem !important;
   }
   .p-xxl-144 {
     padding: 9rem !important;
@@ -43248,6 +44303,10 @@ fieldset:disabled .btn {
   .px-xxl-120 {
     padding-right: 7.5rem !important;
     padding-left: 7.5rem !important;
+  }
+  .px-xxl-124 {
+    padding-right: 7.75rem !important;
+    padding-left: 7.75rem !important;
   }
   .px-xxl-144 {
     padding-right: 9rem !important;
@@ -43361,6 +44420,10 @@ fieldset:disabled .btn {
     padding-top: 7.5rem !important;
     padding-bottom: 7.5rem !important;
   }
+  .py-xxl-124 {
+    padding-top: 7.75rem !important;
+    padding-bottom: 7.75rem !important;
+  }
   .py-xxl-144 {
     padding-top: 9rem !important;
     padding-bottom: 9rem !important;
@@ -43448,6 +44511,9 @@ fieldset:disabled .btn {
   .pt-xxl-120 {
     padding-top: 7.5rem !important;
   }
+  .pt-xxl-124 {
+    padding-top: 7.75rem !important;
+  }
   .pt-xxl-144 {
     padding-top: 9rem !important;
   }
@@ -43531,6 +44597,9 @@ fieldset:disabled .btn {
   }
   .pe-xxl-120 {
     padding-right: 7.5rem !important;
+  }
+  .pe-xxl-124 {
+    padding-right: 7.75rem !important;
   }
   .pe-xxl-144 {
     padding-right: 9rem !important;
@@ -43616,6 +44685,9 @@ fieldset:disabled .btn {
   .pb-xxl-120 {
     padding-bottom: 7.5rem !important;
   }
+  .pb-xxl-124 {
+    padding-bottom: 7.75rem !important;
+  }
   .pb-xxl-144 {
     padding-bottom: 9rem !important;
   }
@@ -43700,6 +44772,9 @@ fieldset:disabled .btn {
   .ps-xxl-120 {
     padding-left: 7.5rem !important;
   }
+  .ps-xxl-124 {
+    padding-left: 7.75rem !important;
+  }
   .ps-xxl-144 {
     padding-left: 9rem !important;
   }
@@ -43783,6 +44858,9 @@ fieldset:disabled .btn {
   }
   .gap-xxl-120 {
     gap: 7.5rem !important;
+  }
+  .gap-xxl-124 {
+    gap: 7.75rem !important;
   }
   .gap-xxl-144 {
     gap: 9rem !important;
@@ -43945,6 +45023,9 @@ fieldset:disabled .btn {
   .row-gap-xxl-120 {
     row-gap: 7.5rem !important;
   }
+  .row-gap-xxl-124 {
+    row-gap: 7.75rem !important;
+  }
   .row-gap-xxl-144 {
     row-gap: 9rem !important;
   }
@@ -44054,6 +45135,10 @@ fieldset:disabled .btn {
     -webkit-column-gap: 7.5rem !important;
             column-gap: 7.5rem !important;
   }
+  .column-gap-xxl-124 {
+    -webkit-column-gap: 7.75rem !important;
+            column-gap: 7.75rem !important;
+  }
   .column-gap-xxl-144 {
     -webkit-column-gap: 9rem !important;
             column-gap: 9rem !important;
@@ -44110,19 +45195,14 @@ fieldset:disabled .btn {
   }
 }
 
-.header {
-  background: #69F0AE;
-  font-size: 64px;
-}
-
-.footer {
-  background: #69F0AE;
-  font-size: 64px;
+html {
+  height: 100%;
 }
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
   line-height: 1.5;
+  min-height: 100%;
 }
 
 a {
@@ -44137,10 +45217,19 @@ a {
   font-family: 'Shrikhand', cursive;
 }
 
+.ff-saira {
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.border-dotted {
+  border-bottom: 2px dotted #fff;
+}
+
 .section-title-sub {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 24px;
+  line-height: 1.5;
 }
 
 @media (min-width: 992px) {
@@ -44154,6 +45243,7 @@ a {
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 40px;
+  line-height: 1.5;
 }
 
 @media (min-width: 992px) {
@@ -44161,6 +45251,60 @@ a {
     font-size: 48px;
     letter-spacing: 48px;
   }
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #1F0F39;
+}
+
+.accordion > li:first-child > button {
+  padding: 32px 0 40px;
+}
+
+@media (min-width: 576px) {
+  .accordion > li:first-child > button {
+    padding: 0 0 40px;
+    border-top: 2px dotted #fff;
+  }
+}
+
+.accordion > li > button {
+  color: #1F0F39;
+  padding: 32px 0 40px;
+  border-bottom: 2px dotted #fff;
+}
+
+.accordion > li > button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #fff;
+}
+
+.accordion > li > button::after {
+  content: none;
+}
+
+.accordion > li > button .addIcon {
+  display: block;
+}
+
+.accordion > li > button .removeIcon {
+  display: none;
+}
+
+.accordion > li > button:not(.collapsed) .addIcon {
+  display: none;
+}
+
+.accordion > li > button:not(.collapsed) .removeIcon {
+  display: block;
+}
+
+.accordion-body {
+  padding: 0;
 }
 
 .my-navbar-collapse {
@@ -44202,11 +45346,15 @@ a {
 }
 
 .bg-gradient1 {
-  background: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
+  background-image: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
 }
 
 .bg-gradient2 {
-  background: radial-gradient(50% 50% at 50% 50%, #28085C 0%, #000 100%);
+  background-image: radial-gradient(50% 50% at 50% 50%, #28085C 0%, #000 100%);
+}
+
+.bg-gradient3 {
+  background-image: radial-gradient(50% 50% at 50% 50%, #000 0%, #300871 100%);
 }
 
 .bar {
@@ -44288,7 +45436,34 @@ a {
   content: '';
 }
 
-.contact-form {
-  background-color: #1F0F39;
+/* 滾動條可拖曳區塊的顏色 */
+.swiper-scrollbar-drag {
+  background-color: #FFF;
+}
+
+/* 整個滾動條的背景顏色 */
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ai-card {
+  padding: 24px 12px;
+  background-color: #000;
+  background-blend-mode: darken;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito.png?raw=true);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@media (min-width: 768px) {
+  .ai-card {
+    padding: 24px 40px 56px;
+  }
+}
+
+.ai-card:hover {
+  background-color: #00000080;
 }
 /*# sourceMappingURL=all.css.map */

@@ -27,10 +27,13 @@
   background-position: left center;
 }
 .bg-gradient1{
-  background: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
+  @include radial-gradient(#300871, #000);
 }
 .bg-gradient2{
-  background: radial-gradient(50% 50% at 50% 50%, #28085C 0%, #000 100%);
+  @include radial-gradient(#28085C, #000);
+}
+.bg-gradient3{
+  @include radial-gradient(#000, #300871);
 }
 .bar{
   height: 40px;
@@ -57,7 +60,7 @@
     transform: rotate(360deg);
   }
 }
-// swiper
+// swiper 1
 .alphabox{
   height: 351px;
   background-image: url("/assets/images/carousel.png");
@@ -84,7 +87,28 @@
     content: '';
   }
 }
+// swiper 2
+/* 滾動條可拖曳區塊的顏色 */
+.swiper-scrollbar-drag {
+  background-color: #FFF;
+}
+/* 整個滾動條的背景顏色 */
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.20);
+}
 
-.contact-form {
-  background-color: #1F0F39;
+.ai-card {
+  padding: 24px 12px;
+  background-color: #000;
+  background-blend-mode: darken;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito.png?raw=true);
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+  @media (min-width: 768px) {
+    padding: 24px 40px 56px;
+  }
+  &:hover {
+    background-color: #00000080;
+  }
 }

@@ -6,13 +6,15 @@
 @import './utils/utilities-custom';
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
-@import './layout/header';
-@import './layout/footer';
 
 @import './base/base';
 @import './base/font';
+@import './utils/mixin';
+@import './utils/helper';
 
 @import './components/title';
+@import './components/accordion';
 
 @import './pages/index';
+
 

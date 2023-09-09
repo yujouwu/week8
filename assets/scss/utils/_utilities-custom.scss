@@ -158,6 +158,15 @@ $utilities: map-merge(
         0: 0,
       )
     ),
+    "border-end-custom": (
+      responsive: true,  // *custom
+      property: border-right,
+      class: border-end,
+      values: (
+        null: var(--#{$prefix}border-width) var(--#{$prefix}border-style) var(--#{$prefix}border-color),
+        0: 0,
+      )
+    ),
     "border-bottom": (
       property: border-bottom,
       values: (

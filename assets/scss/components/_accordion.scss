@@ -1,0 +1,45 @@
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #1F0F39;
+}
+
+.accordion > li:first-child > button {
+  
+  padding: 32px 0 40px;
+  @include media-breakpoint-up(sm){
+    padding: 0 0 40px;
+  }
+}
+
+.accordion > li > button {
+  color: #1F0F39;
+  padding: 32px 0 40px;
+  border-bottom: 2px dotted #fff;
+  &:focus {
+    box-shadow: none;
+    border-color: #fff;
+  }
+  &::after {
+    content: none;
+  }
+  .addIcon {
+    display: block;
+  }
+  .removeIcon {
+    display: none;
+  }
+  &:not(.collapsed) {
+    .addIcon {
+      display: none;
+    }
+    .removeIcon {
+      display: block;
+    }
+  }
+}
+
+.accordion-body {
+  padding: 0;
+}

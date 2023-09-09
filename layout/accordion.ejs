@@ -1,0 +1,24 @@
+<li class="accordion-item border-0">
+    <button class="accordion-button collapsed d-block" type="button" data-bs-toggle="collapse" data-bs-target="#<%= id %>" aria-expanded="true" aria-controls="<%= id %>">
+        <h2 class="accordion-header row fs-6 align-items-center">
+            <span class="col-9 fs-16">
+                <%= title %> 
+            </span>
+            <span class="col-3">
+                <span class="material-symbols-outlined addIcon fs-40">
+                    add
+                </span>
+                <span class="material-symbols-outlined removeIcon fs-40">
+                    remove
+                </span>
+            </span>
+        </h2>
+        <div id="<%= id %>" class="accordion-collapse collapse row" data-bs-parent="#accordionFAQ">
+            <div class="col-9">
+                <p class="accordion-body mt-2 mb-0 fs-16">
+                    <%= content %> 
+                </p>
+            </div>
+        </div>
+    </button>
+</li>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>faq</title>
+  <%- include('./layout/head'); -%>
+</head>
+
+<body >
+  <header>
+    <%- include('./layout/navbar'); -%>
+  </header>
+
+  <main>
+    <section class="bg-danger">
+        <div class="container pt-60 pb-80 pt-lg-64 pb-lg-120" >
+            <div class="border-dotted pb-40 pb-lg-64">
+                <p class="section-title text-dark " >
+                    <!-- text-dark ls-40 fs-1 fw-bold pt-60 pb-60 -->
+                    FAQ
+                </p>
+            </div>
+            <div class="row pt-52">
+                <div class="col-md-4">
+                    <div>
+                        <ul class="nav flex-column">
+                            <li class="fw-medium ">
+                                <a class="text-dark nav-link ps-0 " href="#">ALPHABOX+ 使用問題</a>
+                            </li>
+                            <li class="fw-medium ">
+                                <a class="text-dark nav-link ps-0 " href="#">訂購與運送</a>
+                            </li>
+                            <li class="fw-medium ">
+                                <a class="text-dark nav-link ps-0 " href="#">產品保養與維修</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+
+                <div class="col-md-8">
+                    <ul class="accordion list-unstyled" id="accordionFAQ">
+                        <%- include('./layout/accordion', {id: '1', title:'ALPHABOX+ 的使用方式是什麼？', content:'首先請確保機器人已安裝並連接至Wi-Fi，然後使用專屬的應用程式進行設定。隨後即可透過語音指令或應用程式與機器人進行互動。'}) -%>
+                        <%- include('./layout/accordion', {id: '2', title:'ALPHABOX+ 需要什麼樣的環境來使用？', content:'首先請確保機器人已安裝並連接至Wi-Fi，然後使用專屬的應用程式進行設定。隨後即可透過語音指令或應用程式與機器人進行互動。'}) -%>
+                        <%- include('./layout/accordion', {id: '3', title:'ALPHABOX+ 支援哪些語言？', content:'首先請確保機器人已安裝並連接至Wi-Fi，然後使用專屬的應用程式進行設定。隨後即可透過語音指令或應用程式與機器人進行互動。'}) -%>
+                        <%- include('./layout/accordion', {id: '4', title:'ALPHABOX+ 的軟體更新方式為何？', content:'首先請確保機器人已安裝並連接至Wi-Fi，然後使用專屬的應用程式進行設定。隨後即可透過語音指令或應用程式與機器人進行互動。'}) -%>
+                        <%- include('./layout/accordion', {id: '5', title:'購買 ALPHABOX+ 後的售後服務如何？', content:'首先請確保機器人已安裝並連接至Wi-Fi，然後使用專屬的應用程式進行設定。隨後即可透過語音指令或應用程式與機器人進行互動。'}) -%>
+                        <%- include('./layout/accordion', {id: '6', title:'ALPHABOX+ 與其他智能家居設備的相容性如何？', content:'首先請確保機器人已安裝並連接至Wi-Fi，然後使用專屬的應用程式進行設定。隨後即可透過語音指令或應用程式與機器人進行互動。'}) -%>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <%- include('./layout/footer'); -%>
+
+<script type="module" src="../main.js"></script>
+</body>
+
+</html>
