@@ -94,7 +94,7 @@
             </div>
           </div>
         </div>
-        <!-- swiper -->
+        <!-- swiper 1-->
         <div class="container container-xxxl">
           <div class="row align-items-center justify-content-between g-0  py-16 py-lg-32">
             <!--  左箭頭  -->
@@ -278,15 +278,43 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper ">
             <!-- Slides -->
+            <!-- Share 1 -->
             <div class="swiper-slide p-40 bg-info text-white">
+              <div class="d-flex flex-column justify-content-between">
+                <div>
+                  <div class="d-flex align-items-center gap-8  mb-32">
+                    Zona
+                    <span class="material-symbols-outlined fs-8">
+                      circle
+                      </span>
+                    Taipei
+                  </div>
+                  <p>ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                </div>
+                <div>
+                  <p class="d-flex align-items-center gap-16">
+                    <span class="material-symbols-outlined fs-16">
+                      circle
+                      </span>
+                      <span class="material-symbols-outlined fs-16">
+                        circle
+                        </span>
+                      ALPHABOX+ Dianne
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            <!-- Share 2 -->
+            <div class="swiper-slide p-40 bg-white text-black">
               <div class="d-flex align-items-center gap-8  mb-32">
-                Zona
+                Lin
                 <span class="material-symbols-outlined fs-8">
                   circle
                   </span>
-                Taipei
+                Chiayi
               </div>
-              <p>ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+              <p>非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
               <p class="d-flex align-items-center gap-16">
                 <span class="material-symbols-outlined fs-16">
                   circle
@@ -294,18 +322,19 @@
                   <span class="material-symbols-outlined fs-16">
                     circle
                     </span>
-                  ALPHABOX+ Dianne
+                  ALPHABOX+ Felix
               </p>
             </div>
-            <div class="swiper-slide p-40 bg-white text-black">
+            <!-- Share 3 -->
+            <div class="swiper-slide p-40 bg-info text-white">
               <div class="d-flex align-items-center gap-8  mb-32">
-                Zona
+                云
                 <span class="material-symbols-outlined fs-8">
                   circle
                   </span>
-                Taipei
+                  Taipei
               </div>
-              <p>ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+              <p>我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
               <p class="d-flex align-items-center gap-16">
                 <span class="material-symbols-outlined fs-16">
                   circle
@@ -313,14 +342,28 @@
                   <span class="material-symbols-outlined fs-16">
                     circle
                     </span>
-                  ALPHABOX+ Dianne
+                    ALPHABOX+ Dianne
               </p>
             </div>
-            <div class="swiper-slide p-40 bg-info text-white">
-              <p>ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
-            </div>
+            <!-- Share 4 -->
             <div class="swiper-slide p-40 bg-white text-black">
-              <p>ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+              <div class="d-flex align-items-center gap-8  mb-32">
+                Zichi
+                <span class="material-symbols-outlined fs-8">
+                  circle
+                  </span>
+                  Kaohsiung
+              </div>
+              <p>讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
+              <p class="d-flex align-items-center gap-16">
+                <span class="material-symbols-outlined fs-16">
+                  circle
+                  </span>
+                  <span class="material-symbols-outlined fs-16">
+                    circle
+                    </span>
+                    ALPHABOX+ Vito
+              </p>
             </div>
           </div>
         </div>
@@ -375,18 +418,26 @@
       </div>
     </section>
 
-    <!--numbered androids-->
+    <!--heros-->
     <section>
-      
+      <div class="container-fluid px-0">
+      <div class="row g-0">
+        <div class="col-lg-3 col-6">
+          <%- include('./layout/robot', {number: '1', name:'Diane', imgUrl:'/assets/images/diane_vertical.png', title:'知識型', subtitle:'學術領導/知識分享/智能問答'}); -%>
+        </div>
+        <div class="col-lg-3 col-6">
+          <%- include('./layout/robot', {number: '2', name:'Felix',imgUrl:'/assets/images/felix_vertical.png', title:'娛樂型', subtitle:'音樂播放/語音互動/遊戲陪伴'}); -%>
+        </div>
+        <div class="col-lg-3 col-6">
+          <%- include('./layout/robot', {number: '3', name:'Diane', imgUrl:'/assets/images/karina_verticalgle.png', title:'生活型', subtitle:'健康提醒/日程安排/智能家居'}); -%>
+        </div>
+        <div class="col-lg-3 col-6">
+          <%- include('./layout/robot', {number: '4', name:'Vito',imgUrl:'/assets/images/vito_vertical.png', title:'情感型', subtitle:'情感識別/心情分析/心靈支持'}); -%>
+        </div>
+      </div>
+    </div>
     </section>
-
   </main>
-
-
-
-
-
-
   <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

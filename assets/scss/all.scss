@@ -12,8 +12,14 @@
 @import './utils/mixin';
 @import './utils/helper';
 
+@import './layout/container';
+
 @import './components/title';
 @import './components/accordion';
+@import './components/swiper';
+@import './components/animation';
+
+@import './components/robot';
 
 @import './pages/index';
 

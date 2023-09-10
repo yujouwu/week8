@@ -22,15 +22,23 @@ import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs
   )
 
   const swiper2 = new Swiper('.swiper2', {
-  // slide 間距
-  spaceBetween: 24,
-  slidesPerView: 3,
-  // Scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-    draggable: true,
-  },
-  // 使 swiper 可以使用滑鼠滾輪捲動
-  mousewheel: true,
-
+    direction: 'vertical',
+    spaceBetween: 24,
+    slidesPerView: 4,
+    height: 1476,
+    enabled: false, 
+    breakpoints: {
+      992: {
+        direction: 'horizontal',
+        slidesPerView: 3,
+        height: null,
+        enabled: true
+      }
+    },
+  
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
+    mousewheel: true,
   });

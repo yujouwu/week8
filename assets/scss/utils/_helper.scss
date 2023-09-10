@@ -1,3 +1,26 @@
+.bg-img1 {
+  background-image: url("/assets/images/home_background.png");
+  background-size: cover;
+}
+.bg-img2 {
+  background-image: url("/assets/images/carousel_background.png");
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  object-fit: cover;
+  background-position: left center;
+}
+.bg-gradient1 {
+  @include radial-gradient(#300871, #000);
+}
+.bg-gradient2 {
+  @include radial-gradient(#28085C, #000);
+}
+.bg-gradient3 {
+  @include radial-gradient(#000, #300871);
+}
 .border-dotted {
     border-bottom: 2px dotted #fff;
-  }
+}
+.box-shadow-hover:hover{
+  box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.80);
+}

@@ -443,8 +443,8 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-// $body-color:                $gray-900 !default;
-$body-color:                #FFFFFF !default;  // *custom
+$body-color:                $gray-900 !default;
+// $body-color:                #FFFFFF !default;  // *custom
 $body-text-align:           null !default;
 
 // Links
@@ -636,6 +636,8 @@ $h6-font-size:                $font-size-base !default;
 
 // *custom
 $font-sizes: (
+  400: $font-size-base * 25,  // 400px 
+  128: $font-size-base * 8,  // 128px  
   96: $font-size-base * 6,  // 96px
   80: $font-size-base * 5,  // 80px
   64: $font-size-base * 4,  // 64px
@@ -670,8 +672,6 @@ $display-font-sizes: (
   4: 3.5rem,
   5: 3rem,
   6: 2.5rem,
-  l: 25rem,  // 400px  *custom
-  m: 8rem,  // 128px  *custom
 ) !default;
 
 $display-font-family: null !default;
