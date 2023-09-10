@@ -16,18 +16,3 @@
   height: 40px;
   background: linear-gradient(90deg, $primary 1.22%, $secondary 116.05%);
 }
-.ai-card {
-  padding: 24px 12px;
-  background-color: #000;
-  background-blend-mode: darken;
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/vito.png?raw=true);
-  background-size: cover;
-  background-position: center;
-  transition: all 1s;
-  @media (min-width: 768px) {
-    padding: 24px 40px 56px;
-  }
-  &:hover {
-    background-color: #00000080;
-  }
-}
