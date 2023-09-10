@@ -1,12 +1,13 @@
 .robot-card {
 padding: 24px 12px;
-background-color: #000;
-background-blend-mode: darken;
 background-size: cover;
+background-blend-mode: darken;
 background-position: center;
+background-color: #00000080;
 transition: all 1s;
 @media (min-width: 768px) {
     padding: 24px 40px 56px;
+    background-color: #000;
 }
 &:hover {
     background-color: #00000080;

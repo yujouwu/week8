@@ -26,13 +26,11 @@ import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs
     spaceBetween: 24,
     slidesPerView: 4,
     height: 1476,
-    enabled: false, 
     breakpoints: {
       992: {
         direction: 'horizontal',
         slidesPerView: 3,
-        height: null,
-        enabled: true
+        height: null
       }
     },
   

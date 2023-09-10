@@ -47,3 +47,10 @@
     height: 416px;
   }
 }
+
+.swiper2 {
+  pointer-events: none;
+  @include media-breakpoint-up(lg) {
+    pointer-events: initial;
+  }
+}
